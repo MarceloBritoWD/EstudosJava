@@ -26,9 +26,10 @@ public class QuizApp {
 		Pergunta pergunta = quiz.getProximaPergunta();
 		while (pergunta != null)
 		{	System.out.println(pergunta.getEnunciado());
-			for (char i = 'a'; i <= 'e'; i++) 
-			{	System.out.println(i + ") " + pergunta.getResposta(i));
+			for (int i = 0; i <= 1; i++) 
+			{	System.out.println(pergunta.getResposta(i));
 			}
+			System.out.println("");
 			System.out.print("Seu palpite: ");
 			char palpite = teclado.nextLine().charAt(0);
 			boolean acertou = quiz.tentarPalpite(palpite);

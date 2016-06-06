@@ -18,7 +18,7 @@ public class Pergunta {
 		this.correta = correta;
 	}
 	public char getCorreta(){
-		return correta;
+		return this.correta;
 	}
 	
 	
@@ -26,18 +26,9 @@ public class Pergunta {
 		return enunciado;		
 	}
 
-	public String getResposta(char i) {
-		switch (i) {
-		case 'a':
-			return this.respostas[0];
-
-		case 'b':
-			return this.respostas[1];
-		
-		default:
-			return null;
-		}
+	public String getResposta(int i) {
+		return this.respostas[i];
 	}
-	
+
 	
 }
