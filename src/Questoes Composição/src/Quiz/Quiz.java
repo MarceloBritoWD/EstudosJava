@@ -1,3 +1,5 @@
+package Quiz;
+
 
 public class Quiz {
 	private static final int TAMANHO_INICIAL = 3;

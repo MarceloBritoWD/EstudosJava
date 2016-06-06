@@ -1,3 +1,5 @@
+package Agenda;
+
 
 public class Agenda {
 	private static final int TAMANHO_INICIAL = 5;

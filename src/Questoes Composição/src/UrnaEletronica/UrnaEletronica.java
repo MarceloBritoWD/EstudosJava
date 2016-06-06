@@ -1,3 +1,5 @@
+package UrnaEletronica;
+
 
 public class UrnaEletronica {
 	private static final int TAMANHO_INICIAL = 2;

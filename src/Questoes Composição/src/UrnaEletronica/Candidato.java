@@ -1,3 +1,5 @@
+package UrnaEletronica;
+
 
 public class Candidato {
 	private String nome;

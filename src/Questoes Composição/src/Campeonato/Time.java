@@ -1,3 +1,5 @@
+package Campeonato;
+
 
 public class Time {
 	private String nome;

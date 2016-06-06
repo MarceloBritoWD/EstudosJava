@@ -1,3 +1,5 @@
+package Agenda;
+
 
 public class Contato {
 	private String nome;

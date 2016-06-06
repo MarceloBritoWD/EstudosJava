@@ -1,3 +1,5 @@
+package Quiz;
+
 
 public class Pergunta {
 	private String enunciado;

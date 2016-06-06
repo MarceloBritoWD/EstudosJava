@@ -1,3 +1,5 @@
+package Campeonato;
+
 
 public class Campeonato {
 	private static final int TAMANHO_INICIAL = 10;
